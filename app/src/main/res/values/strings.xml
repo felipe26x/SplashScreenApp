@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SplashScreenApp</string>
+    <string name="tierradegrandes">Tierra de grandes</string>
+    <string name="comercio">Comercio Agricola</string>
+    <string name="lema">lo unico imposible es aquello que no intentas</string>
+    <string name="icono_estrella">icono_estrella</string>
+    <string name="Aceptar">aceptar</string>
+    <string name="Cancelar">cancelar</string>
+    <string name="seleccion">switch</string>
+    <string name="off">off</string>
+    <string name="on">on</string>
+
+</resources>
