@@ -10,4 +10,9 @@
     <string name="off">off</string>
     <string name="on">on</string>
 
+    <string name="btn_iniciar_sesion">Iniciar Sesion</string>
+    <string name="btn_registrarse_sesion">Registrarse</string>
+
+
+
 </resources>
