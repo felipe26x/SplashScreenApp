@@ -233,6 +233,9 @@
                     android:backgroundTint="#4CAF50"
                     android:text="Ver"
                     android:textColor="#FFFFFF" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
 
 
             </androidx.cardview.widget.CardView>
