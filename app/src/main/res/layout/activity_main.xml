@@ -25,9 +25,8 @@
         android:layout_width="348dp"
         android:layout_height="wrap_content"
         android:background="@drawable/diseno_barra"
-        app:title="TIERRA DE GRANDES"
         android:fontFamily="cursive"
-        />
+        app:title="TIERRA DE GRANDES" />
 
     <ScrollView
         android:layout_width="325dp"
