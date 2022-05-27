@@ -5,24 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
    >
-    <androidx.appcompat.widget.Toolbar
-        android:layout_width="match_parent"
+
+    <ImageButton
+        android:id="@+id/btnBuscar"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_weight="1"
+        android:src="@drawable/busqueda" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toobar"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diseno_barra"
+        app:title="TIERRA DE GRANDES"
+        android:fontFamily="cursive"
         />
 
     <ScrollView
-        android:layout_width="317dp"
-        android:layout_height="612dp"
+        android:layout_width="325dp"
+        android:layout_height="637dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="68dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"
         app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:orientation="vertical">
 
 
@@ -34,7 +55,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="#FFFFFF"
-                app:cardCornerRadius="8dp">
+                app:cardCornerRadius="5dp">
 
 
                 <TextView
@@ -44,7 +65,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="130dp"
                     android:layout_marginRight="20dp"
-                    android:text="Nombre Producto" />
+                    android:text=" Aguacate" />
 
                 <Button
                     android:id="@+id/button"
@@ -66,7 +87,6 @@
 
             </androidx.cardview.widget.CardView>
 
-
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
@@ -85,7 +105,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="130dp"
                     android:layout_marginRight="20dp"
-                    android:text="Nombre Producto" />
+                    android:text=" Bananos" />
 
                 <Button
                     android:id="@+id/button2"
@@ -134,7 +154,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="130dp"
                     android:layout_marginRight="20dp"
-                    android:text="Nombre Producto" />
+                    android:text=" Panela" />
 
                 <Button
                     android:id="@+id/button3"
@@ -233,9 +253,10 @@
                     android:backgroundTint="#4CAF50"
                     android:text="Ver"
                     android:textColor="#FFFFFF" />
+
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="match_parent" />
 
 
             </androidx.cardview.widget.CardView>
@@ -243,4 +264,39 @@
 
         </LinearLayout>
     </ScrollView>
+    <LinearLayout
+        android:id="@+id/barraBotones"
+        android:background="@drawable/diseno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_alignParentBottom="true"
+        style="?android:attr/buttonBarButtonStyle">
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_home_24"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <ImageButton
+            android:id="@+id/btnHotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_person_24"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <ImageButton
+            android:id="@+id/btnTour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/favorito"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
 </RelativeLayout>
