@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".perfil2"
+            android:exported="false" />
+        <activity
+            android:name=".Anterior2"
+            android:exported="false" />
+        <activity
+            android:name=".perfil1"
+            android:exported="false" />
+        <activity
             android:name=".descripcionproducto"
             android:exported="false" />
         <activity
