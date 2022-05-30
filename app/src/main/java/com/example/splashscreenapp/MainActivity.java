@@ -28,6 +28,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void fav(View view) {
+
+        Intent intent= new Intent(MainActivity.this,Favoritos.class);
+        startActivity(intent);
+    }
+
+    public void subir(View view) {
+        Intent intent= new Intent(MainActivity.this,Sproducto.class);
+        startActivity(intent);
+    }
+
     public void perfil(View v){
         Intent intent = new Intent(this, perfil1.class);
         startActivity(intent);
