@@ -15,7 +15,9 @@ public class Sproducto extends AppCompatActivity {
     }
 
     public void home(View view) {
+
         Intent intent= new Intent(Sproducto.this,MainActivity.class);
+        startActivity(intent);
     }
 
 
