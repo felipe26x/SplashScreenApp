@@ -5,19 +5,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
 
     <ImageButton
         android:id="@+id/btnBuscar"
         style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="66dp"
+        android:layout_height="48dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="348dp"
         android:layout_weight="1"
-        android:src="@drawable/busqueda"
+        android:src="@drawable/busquedal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,8 +41,10 @@
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBuscar">
+        app:layout_constraintTop_toBottomOf="@+id/btnBuscar"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,17 +61,17 @@
                 android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="10dp"
-                app:cardElevation="8dp">
+                app:cardElevation="10dp">
 
 
                 <Button
                     android:id="@+id/button"
-                    android:layout_width="105dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
                     android:layout_marginLeft="190dp"
                     android:layout_marginTop="150dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#4CAF50"
+                    android:background="@drawable/disenobotones"
                     android:text="Ver"
                     android:textColor="#FFFFFF" />
 
@@ -141,16 +144,18 @@
                     android:textColor="#4CAF50"
                     android:textSize="16sp" />
 
+
                 <Button
-                    android:id="@+id/button1"
-                    android:layout_width="105dp"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
                     android:layout_marginLeft="190dp"
                     android:layout_marginTop="150dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#4CAF50"
+                    android:background="@drawable/disenobotones"
                     android:text="Ver"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    tools:ignore="DuplicateIds" />
 
                 <ImageView
                     android:id="@+id/imageView1"
@@ -210,16 +215,6 @@
                     android:textColor="#4CAF50"
                     android:textSize="16sp" />
 
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="105dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="190dp"
-                    android:layout_marginTop="150dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#4CAF50"
-                    android:text="Ver"
-                    android:textColor="#FFFFFF" />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -246,6 +241,19 @@
                     android:layout_marginTop="60dp"
                     android:text=" papa de la negra" />
 
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/disenobotones"
+                    android:text="Ver"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="DuplicateIds" />
+
                 <TextView
                     android:id="@+id/Categoria2"
                     android:layout_width="wrap_content"
@@ -256,8 +264,6 @@
 
 
             </androidx.cardview.widget.CardView>
-
-
 
 
             <androidx.cardview.widget.CardView
@@ -282,16 +288,18 @@
                     android:textColor="#4CAF50"
                     android:textSize="16sp" />
 
+
                 <Button
-                    android:id="@+id/button4"
-                    android:layout_width="105dp"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
                     android:layout_marginLeft="190dp"
                     android:layout_marginTop="150dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#4CAF50"
+                    android:background="@drawable/disenobotones"
                     android:text="Ver"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    tools:ignore="DuplicateIds" />
 
                 <ImageView
                     android:id="@+id/imageView4"
