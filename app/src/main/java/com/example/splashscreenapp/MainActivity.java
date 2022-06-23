@@ -72,7 +72,7 @@ public class  MainActivity extends AppCompatActivity {
     }
 
     public void perfil3(View view){
-        Intent intent = new Intent(MainActivity. this, perfil3.class);
+        Intent intent = new Intent(MainActivity. this, perfil1.class);
         startActivity(intent);
 
     }
