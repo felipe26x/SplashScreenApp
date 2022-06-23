@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login" >
+    tools:context=".login"
+    android:background="@drawable/login">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="354dp"
-        android:layout_height="557dp"
-        android:background="@drawable/diseno2"
+        android:layout_width="417dp"
+        android:layout_height="735dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,52 +24,60 @@
             android:id="@+id/imageView"
             android:layout_width="138dp"
             android:layout_height="135dp"
-            android:background="@drawable/login"
+
             app:layout_constraintBottom_toTopOf="@+id/correo"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.389"
+            app:layout_constraintVertical_bias="0.571"
             app:srcCompat="@drawable/agricultor" />
 
         <EditText
             android:id="@+id/correo"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_width="376dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             android:background="@drawable/diseno"
             android:ems="10"
             android:hint=" Correo Electronico"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintHorizontal_bias="0.609"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.426" />
 
         <EditText
             android:id="@+id/contraseña"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginStart="4dp"
+            android:layout_width="372dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginBottom="36dp"
             android:background="@drawable/diseno"
             android:ems="10"
             android:hint=" Contraseña"
             android:inputType="textPassword"
             app:layout_constraintBottom_toTopOf="@+id/iniciarSesionBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/correo"
-            app:layout_constraintVertical_bias="0.18" />
+            app:layout_constraintVertical_bias="0.143" />
 
         <Button
             android:id="@+id/iniciarSesionBtn"
             android:layout_width="271dp"
             android:layout_height="47dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginTop="248dp"
             android:background="@drawable/diseno"
             android:text="@string/btn_iniciar_sesion"
             app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="416dp"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/correo" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
