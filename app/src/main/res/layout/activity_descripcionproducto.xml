@@ -7,17 +7,14 @@
     tools:context=".descripcionproducto"
     >
 
-
     <ScrollView
         android:id="@+id/scrollView3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="412dp"
+        android:layout_height="675dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,6 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="196dp"
                 android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
                 android:contentDescription="scroll">
 
                 <LinearLayout
@@ -51,7 +49,7 @@
 
                     <ImageView
                         android:id="@+id/imageView5"
-                        android:layout_width="400dp"
+                        android:layout_width="399dp"
                         android:layout_height="match_parent"
                         app:srcCompat="@drawable/cacao" />
 
@@ -69,59 +67,57 @@
 
             </HorizontalScrollView>
 
-            <TextView
-                android:id="@+id/textView15"
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_marginTop="19dp"
-                android:gravity="center"
-                android:text="Descripción"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="normal" />
+                android:layout_height="match_parent"
+                app:cardElevation="2dp">
 
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="88dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="20dp"
-                android:fontFamily="@font/b612_mono_bold"
-                android:text="bananos frescos del cauca , bananos criollos de la mejor produccion"
-                android:textColor="#404040"
-                android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="19dp"
+                    android:gravity="center"
+                    android:text="Descripción"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
 
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="166dp"
-                android:layout_height="41dp"
-                android:layout_marginStart="20dp"
-                android:fontFamily="@font/b612_mono_bold"
-                android:text="$ 22.500 x 1kg"
-                android:textColor="#4CAF50"
-                android:textSize="24sp" />
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="88dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/b612_mono_bold"
+                    android:text="bananos frescos del cauca , bananos criollos de la mejor produccion"
+                    android:textColor="#404040"
+                    android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="20dp"
-                android:fontFamily="@font/b612_mono_bold"
-                android:text="Categoria:"
-                android:textColor="#606060"
-                android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/b612_mono_bold"
+                    android:text="$ 22.500 x 1kg"
+                    android:textColor="#4CAF50"
+                    android:textSize="24sp" />
 
-            <ImageButton
-                android:id="@+id/imageButton3"
-                android:layout_width="74dp"
-                android:layout_height="31dp"
-                android:layout_marginLeft="120dp"
-                android:layout_marginTop="-30dp"
-                android:backgroundTint="#00FFFFFF"
-                app:srcCompat="@drawable/ic_apple" />
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/b612_mono_bold"
+                    android:text="Categoria:"
+                    android:textColor="#606060"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
 
             <TextView
                 android:id="@+id/textView12"
@@ -136,12 +132,11 @@
                 android:textSize="20sp"
                 tools:ignore="DuplicateIds" />
 
-
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="180dp"
+                android:layout_marginLeft="140dp"
                 android:layout_marginTop="-30dp"
                 android:layout_marginRight="20dp"
                 android:fontFamily="@font/b612_mono_bold"
@@ -149,6 +144,35 @@
                 android:textColor="#2196F3"
                 android:textSize="20sp"
                 tools:ignore="DuplicateIds" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/b612_mono_bold"
+                android:text="hace 2 horas "
+                android:textColor="#606060"
+                android:textSize="18sp"
+                tools:ignore="DuplicateIds" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/b612_mono_bold"
+                android:text="subido por :"
+                android:textColor="#606060"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
 
             <Button
                 android:id="@+id/btn_contactar"
@@ -167,6 +191,12 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="31dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
