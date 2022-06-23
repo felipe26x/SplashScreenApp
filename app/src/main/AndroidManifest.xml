@@ -18,9 +18,6 @@
             android:name=".Favoritos"
             android:exported="false" />
         <activity
-            android:name=".perfil2"
-            android:exported="false" />
-        <activity
             android:name=".Anterior2"
             android:exported="false" />
         <activity

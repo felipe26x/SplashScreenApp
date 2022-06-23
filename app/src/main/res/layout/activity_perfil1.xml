@@ -5,8 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/disenioperfil"
     tools:context=".perfil1">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="457dp"
+
+        android:background="@drawable/perfil3" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,9 +42,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="149dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="330dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="143dp"
         android:text="armandocasas@gmail.com"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,9 +57,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="224dp"
-        android:layout_marginBottom="263dp"
-        android:text="Años: "
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="175dp"
+        android:fontFamily="@font/b612_mono_bold"
+        android:text="Email: "
+        android:textColor="#191919"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="168dp"
         tools:layout_editor_absoluteY="426dp" />
@@ -63,8 +72,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="182dp"
-        android:layout_marginBottom="261dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="256dp"
         android:text="28"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="212dp"
@@ -76,9 +85,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="245dp"
-        android:layout_marginBottom="211dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="108dp"
+        android:fontFamily="@font/b612_mono_bold"
         android:text="Dirección: "
+        android:textColor="#191919"
+
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="106dp"
         tools:layout_editor_absoluteY="468dp" />
@@ -89,8 +101,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="81dp"
-        android:layout_marginBottom="211dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="81dp"
         android:text="Carrera 14 #17-23"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="182dp"
@@ -126,30 +138,18 @@
         tools:layout_editor_absoluteY="16dp" />
 
 
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="357dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="79dp"
-        android:text="Colombia es el país más desigual de América Latina en tenencia y distribución de la tierra. La nueva legislación, que está cerca de aprobarse, al parecer no responde a las necesidades de las organizaciones campesinas y dejaría enormes vacíos."
-        android:textStyle="bold"
-        android:textColor="@color/black"/>
-
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="192dp"
+        android:layout_width="125dp"
+        android:layout_height="124dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="128dp"
         android:layout_marginTop="92dp"
-        android:layout_marginEnd="123dp"
-        app:srcCompat="@drawable/perfil" />
+        android:layout_marginEnd="158dp"
+        android:background="@drawable/disenioperfil"
+        app:srcCompat="@drawable/benzema" />
 
 </RelativeLayout>
