@@ -76,6 +76,11 @@ public class  MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void entrar (View view){
+        Intent intent = new Intent(MainActivity. this, login.class);
+        startActivity(intent);
+
+    }
 
 
 
