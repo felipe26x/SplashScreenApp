@@ -20,37 +20,20 @@
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/bordes.xml" value="0.1835" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/busqueda.xml" value="0.3675" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/degradado.xml" value="0.1835" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/disenioperfil.xml" value="0.3485" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/diseno.xml" value="0.3675" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/diseno2.xml" value="0.217" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/diseno_barra.xml" value="0.3675" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/disenobotones.xml" value="0.269" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/disenocardview.xml" value="0.3485" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/disenoproduc.xml" value="0.3485" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/disenovistaproducto.xml" value="0.2555" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/estiloshdp.xml" value="0.3485" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/favorito.xml" value="0.3515" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/fondodegradado.xml" value="0.2985" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/gradient.xml" value="0.217" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.1835" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_back.xml" value="0.364" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_baseline_arrow_circle_up_24.xml" value="0.364" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.364" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_baseline_house_24.xml" value="0.364" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_baseline_near_me_24.xml" value="0.364" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.3675" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.3675" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_config.xml" value="0.3485" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_estrella.xml" value="0.1835" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_group.xml" value="0.364" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_home_free_icon_font.xml" value="0.1835" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3675" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_message.xml" value="0.3485" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_people.xml" value="0.3485" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_temas.xml" value="0.3485" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_volver.xml" value="0.3485" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/login.xml" value="0.3675" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/perfil3.xml" value="0.2855" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/font/.xml" value="0.396875" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/font/alata.xml" value="0.396875" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/font/alfa_slab_one.xml" value="0.396875" />
@@ -65,16 +48,13 @@
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_pactivity.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_perfil1.xml" value="0.3178294573643411" />
+        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_perfil1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_perfil2.xml" value="0.33" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_registrar.xml" value="0.33" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_sproducto.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/perfil3.xml" value="0.25" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.196" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/SplashScreenApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
-        <entry key="..\:/Users/SENA/SplashScreenApp/app/src/main/res/layout/activity_admin.xml" value="0.33" />
-        <entry key="..\:/Users/SENA/SplashScreenApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/bordes.xml" value="0.2045" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/busqueda.xml" value="0.1" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/degradado.xml" value="0.2045" />
@@ -95,10 +75,12 @@
         <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.3675" />
         <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2985" />
         <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/ic_baseline_near_me_24.xml" value="0.2985" />
+        <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/drawable/perfil3.xml" value="0.263" />
         <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_admin.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_descripcionproducto.xml" value="0.33" />
         <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_favoritos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_perfil1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/activity_sproducto.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/c/AndroidStudioProjects/SplashScreenApp/app/src/main/res/layout/cardview.xml" value="0.33" />
       </map>
@@ -109,12 +91,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.3178294573643411" />
-      </ProjectState>
-    </option>
   </component>
 </project>
