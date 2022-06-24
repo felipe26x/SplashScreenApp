@@ -35,4 +35,7 @@ public class Sproducto extends AppCompatActivity {
 
     public void subir(View view) {
     }
+
+    public void onClick(View view) {
+    }
 }
