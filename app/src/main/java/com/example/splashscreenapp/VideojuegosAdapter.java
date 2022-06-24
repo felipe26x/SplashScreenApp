@@ -32,7 +32,7 @@ public class VideojuegosAdapter extends RecyclerView.Adapter<VideojuegosAdapter.
     public void onBindViewHolder(@NonNull VideojuegosAdapter.ComidaViewHolder holder, int i) {
         holder.imagen.setImageResource(items.get(i).getImagen());
         holder.nombre.setText(items.get(i).getNombre());
-        holder.visitas.setText("Visitas"+String.valueOf(items.get(i).getVisitas()));
+
     }
 
     @Override
@@ -44,13 +44,13 @@ public class VideojuegosAdapter extends RecyclerView.Adapter<VideojuegosAdapter.
     public class ComidaViewHolder extends RecyclerView.ViewHolder {
         public ImageView imagen;
         public TextView nombre;
-        public TextView visitas;
+
 
         public ComidaViewHolder(@NonNull View itemView) {
             super(itemView);
             imagen = (ImageView) itemView.findViewById(R.id.imagen);
             nombre = (TextView) itemView.findViewById(R.id.nombre);
-            visitas = (TextView) itemView.findViewById(R.id.visitas);
+
         }
     }
 

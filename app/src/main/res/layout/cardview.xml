@@ -11,13 +11,13 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="184dp"
+        android:layout_height="286dp"
         android:foregroundTint="#A9D6D6D6">
 
         <ImageView
             android:id="@+id/imagen"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="match_parent"
             android:scaleType="centerCrop" />
 
 
@@ -25,22 +25,13 @@
             android:id="@+id/nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/imagen"
+            android:layout_alignParentTop="true"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="-13dp"
+            android:layout_marginTop="148dp"
+            android:gravity="center"
             android:text="Large Text"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#FFFFFF" />
-
-        <TextView
-            android:id="@+id/visitas"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/nombre"
-            android:layout_alignLeft="@+id/nombre"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="#BDBDBD" />
 
         <View
             android:id="@+id/Linea"

@@ -46,11 +46,11 @@ public class  MainActivity extends AppCompatActivity {
 
         List items = new ArrayList();
 
-        items.add(new Videojuegos(R.drawable.papa, "Fifa 22", 20));
-        items.add(new Videojuegos(R.drawable.platano, "gta 5", 12));
-        items.add(new Videojuegos(R.drawable.cafe, "red dead demption", 32));
-        items.add(new Videojuegos(R.drawable.s, "the last of us 2", 66));
-        items.add(new Videojuegos(R.drawable.zana, "call of duty", 10));
+        items.add(new Videojuegos(R.drawable.s, "Bievenidos a tierra de grandes", 20));
+        items.add(new Videojuegos(R.drawable.platano, "los mejores productos con la mejor calidad", 12));
+        items.add(new Videojuegos(R.drawable.cafe, "los productos mas frescos y deliciosos", 32));
+        items.add(new Videojuegos(R.drawable.s, "100% del campo", 66));
+        items.add(new Videojuegos(R.drawable.zana, "", 10));
 
 
         LManager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false);
