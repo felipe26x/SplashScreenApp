@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context=".Sproducto">
 
 
@@ -13,7 +14,6 @@
         android:layout_width="342dp"
         android:layout_height="55dp"
         android:layout_alignParentBottom="true"
-
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="5dp"
@@ -49,7 +49,8 @@
             android:layout_weight="1"
             android:background="#00000000"
             android:onClick="fav"
-            android:src="@drawable/favorito" />
+            android:src="@drawable/favorito"
+            tools:ignore="HardcodedText" />
 
         <ImageButton
             android:id="@+id/btnperfil"
@@ -62,13 +63,14 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView102"
         android:layout_width="182dp"
         android:layout_height="35dp"
         android:layout_marginStart="118dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="118dp"
         android:text="  Subir Producto"
+        android:onClick="volver"
         android:textColor="#151515"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,15 +80,15 @@
 
     <ScrollView
         android:id="@+id/scrollView4"
-        android:layout_width="342dp"
-        android:layout_height="529dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginBottom="57dp"
+        android:layout_width="353dp"
+        android:layout_height="593dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/sproducto"
-        app:layout_constraintBottom_toTopOf="@+id/barraBotones"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView102">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -94,10 +96,10 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textViewl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
                 android:text="Nombre"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
@@ -107,16 +109,24 @@
                 android:id="@+id/editTextTextPersonName"
                 android:layout_width="match_parent"
                 android:layout_height="49dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/disenoformproducto"
+                android:cursorVisible="true"
                 android:ems="10"
-                android:hint="  ej: papa.."
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:singleLine="false"
+                android:textAllCaps="false"
+                android:textColor="#DFDFDF"
+                android:textColorHighlight="#FBFBFB"
+                android:textColorHint="#F4F4F4"
+                android:textColorLink="#FFFFFF" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textView98"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:text="Precio"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
@@ -125,15 +135,75 @@
                 android:id="@+id/editTextTextPersonName4"
                 android:layout_width="match_parent"
                 android:layout_height="46dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/disenoformproducto"
                 android:ems="10"
-                android:hint="  ej:23.000"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#F8F3F3" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Imagen"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/disenoformproducto"
+                app:cardBackgroundColor="#2A020202"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/btn_contactar5"
+                    android:layout_width="121dp"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/bordes"
+                    android:onClick="dispatchTakePictureIntent"
+                    android:text="tomar foto"
+                    android:textAllCaps="false"
+                    app:layout_constraintBottom_toTopOf="@+id/barraBotones"
+                    app:layout_constraintStart_toStartOf="parent">
+
+
+                </Button>
+
+
+                <Button
+                    android:id="@+id/btn_contactar4"
+                    android:layout_width="121dp"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/bordes"
+                    android:text="Cargar foto"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toTopOf="@+id/barraBotones"
+                    app:layout_constraintStart_toStartOf="parent">
+
+
+                </Button>
+
+
+            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:text="Descripcion"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
@@ -141,20 +211,30 @@
             <EditText
                 android:id="@+id/editTextTextMultiLine"
                 android:layout_width="match_parent"
-                android:layout_height="149dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/disenoformproducto"
                 android:ems="10"
                 android:gravity="start|top"
-                android:hint="  escribe aqui la descripcion del producto"
-                android:inputType="textMultiLine" />
+                android:inputType="textMultiLine"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#FFFBFB"
+                android:textColorHint="#FFFFFF" />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/btn_contactar2"
+                android:layout_width="244dp"
                 android:layout_height="wrap_content"
-                android:text="Subir foto"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp" />
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bordes"
+                android:backgroundTint="#FFFFFF"
+                android:text="Subir"
+                android:textColor="#2DA332" />
+
         </LinearLayout>
     </ScrollView>
 
@@ -163,7 +243,7 @@
         android:layout_width="62dp"
         android:layout_height="47dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:backgroundTint="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

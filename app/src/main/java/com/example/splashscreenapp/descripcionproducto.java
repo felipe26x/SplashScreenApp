@@ -1,6 +1,8 @@
 package com.example.splashscreenapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,9 +18,8 @@ public class descripcionproducto extends AppCompatActivity {
     }
 
 
-
-
-
-
-
+    public void volver(View view) {
+        Intent intent= new Intent(descripcionproducto.this,MainActivity.class);
+        startActivity(intent);
+    }
 }
